@@ -1,6 +1,13 @@
+#!/usr/bin/env python3
 from typing import Union
 import types
 
+
+#~~~TODO~~~
+class Host:
+    ip = ''
+    cpus = 0
+    mem = "0mib"
 
 class Tag:
     parent = None
